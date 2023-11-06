@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #76ab7d;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#clock{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 60px;
+}
