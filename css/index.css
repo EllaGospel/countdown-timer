@@ -5,15 +5,36 @@
 body{
     background: #76ab7d;
 }
-.heading{
-    text-align: center;
-    margin-top: 50px;
+
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+    .heading{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #clock{
+        color: red;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        font-size: 60px;
+    }
+    
 }
 
-#clock{
-    color: red;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    font-size: 60px;
+/* style for mobile view view (screen width <767px) */
+@media (max-width:767px){
+    .heading{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    #clock{
+        color: red;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 45px;
+    }
+    
 }
